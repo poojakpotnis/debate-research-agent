@@ -5,7 +5,7 @@ With User Authentication and Configurable API Keys
 
 import streamlit as st
 from orchestrator_secure import DebateResearchOrchestrator
-from agents import SourceValidatorAgent
+from agents_secure import SourceValidatorAgent
 import os
 from dotenv import load_dotenv
 from supabase import create_client, Client
